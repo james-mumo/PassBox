@@ -5,5 +5,13 @@
     "dotenv": "^16.4.7",
     "express": "^4.17.1",
     "mongoose": "^8.9.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step required for Node.js app'"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

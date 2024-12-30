@@ -11,8 +11,9 @@ const mongoDBURI =
   process.env.MONGODB_URI ||
   "mongodb+srv://98kithome:98kithome@cluster0.ijx96ju.mongodb.net/flipload";
 
+// Connect to MongoDB (deprecated options removed)
 mongoose
-  .connect(mongoDBURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(mongoDBURI)
   .then(() => console.log("Connected to MongoDB Atlas"))
   .catch((err) => console.error("Error connecting to MongoDB Atlas:", err));
 
