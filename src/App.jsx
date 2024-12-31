@@ -15,7 +15,7 @@ function App() {
   const [deletePassword, setDeletePassword] = useState("");
 
   // const API_BASE_URL = "http://localhost:5000"; // Backend URL
-  const API_BASE_URL = "https://passbox-backend-express.onrender.com/";
+  const API_BASE_URL = "https://passbox-backend-express.onrender.com";
 
   // Handle file selection
   const handleFileChange = (e) => {
